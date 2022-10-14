@@ -11,10 +11,11 @@ export default {
     () => {
       return (
         <div className="flex items-center gap-2">
-          <Text size={'sm'}>Lembrar-me de mim por 30 dias</Text>
+          <Checkbox />
+          <Text size={"sm"}>Lembrar-me de mim por 30 dias</Text>
         </div>
-      )
-    }
+      );
+    },
   ],
   argTypes: {},
 };
